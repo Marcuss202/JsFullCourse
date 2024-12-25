@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+
+        <h3>Teperature<br>conversion:</h3>
+        <input class="paddingSimple" id="inputTemp" type="text"><br>
+
+        <input class="paddingSimple" name="radioButtons" id="CelToFah" type="radio">
+        <label class="convertRadio paddingSimple" for="CelToFah">Celsius -> Fahrenheit</label><br>
+        <input class="paddingSimple" name="radioButtons" id="FahToCel" type="radio">
+        <label class="convertRadio paddingSimple" for="FahToCel">Fahrenheit -> Celsius</label><br>
+
+        <button type="submit" id="conversionSubmit" onclick="convert()">Submit</button>
+
+        <p id="conversionAnswer"></p>
+        
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

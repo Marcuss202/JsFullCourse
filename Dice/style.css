@@ -1,0 +1,51 @@
+body {
+    font-family:Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+#RollDiceBtn {
+    font-size: 1.5em;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: rgb(68, 120, 233);
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#RollDiceBtn:hover {
+    background-color: rgb(51, 92, 182);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#allInputs {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ofDiceText {
+    padding-right: 10px;
+}
+
+#numberOfDiceInput {
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 150px;
+}
+
+#diceImages img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}

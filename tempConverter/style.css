@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Tahoma, sans-serif;
+    margin: 50px;
+    background-color: rgb(239, 240, 241);
+}
+
+#conversionSubmit {
+    font-size: 1em;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: rgb(247, 44, 44);
+    border-color: rgb(100, 11, 11);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#conversionSubmit:hover {
+    background-color: rgb(185, 32, 32);
+}
+
+#container {
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    width: 300px;
+    height: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.convertRadio {
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(0, 133, 177);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#inputTemp {
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.paddingSimple {
+    margin-bottom: 10px;
+}
+
+#conversionAnswer {
+    font-size: 20px;
+    font-weight: 600;
+}
