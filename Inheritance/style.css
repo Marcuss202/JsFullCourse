@@ -1,0 +1,15 @@
+body {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#myButton {
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border-color: rgb(103, 214, 177);
+    color: rgb(105, 127, 252);
+}
+
